@@ -1,21 +1,24 @@
 ````markdown
-# 🎮 Tic-Tac-Toe Web Game
+# 🎮 PRODIGY_WD_03 — Tic-Tac-Toe Web Application
 
-A modern, interactive, and responsive Tic-Tac-Toe web game built using **HTML, CSS, and JavaScript**.
+A responsive and interactive **Tic-Tac-Toe Web Application** developed as part of **Task-03** of my Web Development Internship at **Prodigy InfoTech**.
 
-The game supports **2 Player Mode** and **Player vs Computer Mode** with a smart **Minimax AI**, score tracking, sound effects, winner popup, animations, and confetti celebration.
+The application allows users to play Tic-Tac-Toe in **2 Player Mode** or against a **Computer AI** with a clean UI, score tracking, sound effects, animations, and winner celebration.
+
+---
 
 ## 🚀 Live Demo
 
-🔗 [Play Tic-Tac-Toe](YOUR-LIVE-DEMO-LINK)
+🔗 **[Play Tic-Tac-Toe](YOUR-LIVE-DEMO-LINK)**
 
 ---
 
 ## ✨ Features
 
-- 👥 **2 Players Mode**
+- 👥 **2 Player Mode**
 - 🤖 **Player vs Computer Mode**
 - 🧠 **Minimax AI Algorithm**
+- ❌ **X and O Turn Management**
 - 🏆 **Winner Detection**
 - 🤝 **Draw Detection**
 - 📊 **Scoreboard**
@@ -33,11 +36,13 @@ The game supports **2 Player Mode** and **Player vs Computer Mode** with a smart
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – Game structure
-- **CSS3** – Styling, responsive design, and animations
-- **JavaScript** – Game logic and interactivity
-- **DOM Manipulation** – Dynamic game updates
-- **Minimax Algorithm** – Computer AI
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **DOM Manipulation**
+- **CSS Animations**
+- **Minimax Algorithm**
+- **Web Audio API**
 
 ---
 
@@ -48,84 +53,71 @@ The game supports **2 Player Mode** and **Player vs Computer Mode** with a smart
 Two players can play against each other.
 
 - Player X starts the game.
-- Players take turns.
+- Players take turns placing X and O.
 - The first player to get three marks in a row wins.
-- If all cells are filled without a winner, the game ends in a draw.
+- If all nine cells are filled without a winner, the game ends in a draw.
 
 ### 🤖 Player vs Computer
 
-Play against a computer opponent powered by the **Minimax algorithm**.
+Play against a computer opponent using the **Minimax algorithm**.
 
-The AI evaluates possible moves and chooses the best available move.
+The computer evaluates possible moves and selects the best available move.
 
 ---
 
-## 🧠 Minimax AI
+## 🧠 AI Implementation
 
-The computer opponent uses the **Minimax algorithm** to evaluate possible game states.
+The Computer Mode uses the **Minimax algorithm** to make intelligent decisions.
 
-This allows the computer to:
+The AI can:
 
 - Find winning moves
-- Block the player's winning moves
-- Evaluate future moves
-- Choose optimal moves
+- Block possible winning moves
+- Evaluate future game states
+- Select optimal moves
 - Avoid making a losing move
-
----
-
-## 🎮 How to Play
-
-1. Open the game.
-2. Select **2 Players** or **Vs Computer**.
-3. Player X starts the game.
-4. Click any empty cell to place your mark.
-5. Continue taking turns.
-6. Get three matching marks in a row to win.
-7. Use **Restart** to start another round.
-8. Use **Reset Scores** to clear the scoreboard.
 
 ---
 
 ## 📊 Scoreboard
 
-The game tracks:
+The application keeps track of:
 
 | Score | Description |
 |---|---|
-| ❌ X Wins | Number of games won by X |
-| ⭕ O Wins | Number of games won by O |
+| ❌ X Wins | Number of games won by Player X |
+| ⭕ O Wins | Number of games won by Player O |
 | 🤝 Draws | Number of games ending in a draw |
 
 ---
 
 ## 🔊 Sound Effects
 
-The game includes interactive sound effects for:
+Interactive sound effects are included for:
 
 - Player moves
 - Winning
 - Draw
 - Button clicks
 
-You can use the **Sound On / Sound Off** button to control the audio.
+Users can enable or disable sounds using the **Sound On / Sound Off** button.
 
 ---
 
 ## 🎊 Winner Celebration
 
-When a player wins:
+When a player wins, the application displays:
 
-- 🏆 Winner popup appears
-- 🔊 Winning sound plays
-- ✨ Winning cells are highlighted
-- 🎊 Confetti animation starts
+- 🏆 Winner popup
+- 🎊 Confetti animation
+- 🔊 Winning sound
+- ✨ Highlighted winning cells
 
 ---
 
 ## 📱 Responsive Design
 
-The game is designed to work across different screen sizes, including:
+The application is designed to work smoothly on:
 
 - 💻 Desktop
 - 💻 Laptop
@@ -137,7 +129,7 @@ The game is designed to work across different screen sizes, including:
 ## 📂 Project Structure
 
 ```text
-Tic-Tac-Toe-Web-Game/
+PRODIGY_WD_03/
 │
 ├── index.html
 ├── style.css
@@ -147,7 +139,7 @@ Tic-Tac-Toe-Web-Game/
 
 ---
 
-## ⚙️ Installation
+## ⚙️ How to Run Locally
 
 ### 1. Clone the Repository
 
@@ -155,29 +147,36 @@ Tic-Tac-Toe-Web-Game/
 git clone YOUR-GITHUB-REPOSITORY-LINK
 ```
 
-### 2. Open the Project
+### 2. Open the Project Folder
 
 ```bash
-cd Tic-Tac-Toe-Web-Game
+cd PRODIGY_WD_03
 ```
 
-### 3. Run the Game
+### 3. Run the Application
 
-Open:
+Open `index.html` in any modern web browser.
 
-```text
-index.html
-```
+No external dependencies or installation are required.
 
-in your web browser.
+---
 
-No additional libraries or dependencies are required.
+## 🎮 How to Play
+
+1. Open the Tic-Tac-Toe application.
+2. Select **2 Players** or **Vs Computer**.
+3. Player X starts the game.
+4. Click an empty cell to place your mark.
+5. Continue taking turns.
+6. Get three matching marks in a row to win.
+7. Use **Restart** to start a new round.
+8. Use **Reset Scores** to clear the scoreboard.
 
 ---
 
 ## 📸 Project Preview
 
-Add a screenshot of your game here:
+Add your project screenshot here:
 
 ```markdown
 ![Tic-Tac-Toe Preview](screenshot.png)
@@ -185,14 +184,26 @@ Add a screenshot of your game here:
 
 ---
 
+## 📚 Task Information
+
+**Internship:** Prodigy InfoTech Web Development Internship
+
+**Task:** Task-03
+
+**Project:** Tic-Tac-Toe Web Application
+
+**Task Objective:**
+
+> Build a Tic-Tac-Toe web application where users can play against each other or against a computer opponent.
+
+---
+
 ## 🚀 Future Improvements
 
-Possible future enhancements:
-
 * 🌐 Online Multiplayer
-* 🏅 Difficulty Levels
-* 🥇 Leaderboard
-* 💾 Local Storage for Scores
+* 🏆 Leaderboard
+* 💾 Local Storage
+* 🎚️ Multiple AI Difficulty Levels
 * 🌙 Dark / Light Theme
 * 📱 Progressive Web App Support
 
@@ -202,7 +213,7 @@ Possible future enhancements:
 
 ### Kalyani Vanga
 
-Computer Science Engineering Student passionate about **Web Development, Artificial Intelligence, Machine Learning, and Data Analytics**.
+Computer Science Engineering Student interested in **Web Development, Artificial Intelligence, Machine Learning, and Data Analytics**.
 
 🔗 **GitHub:** YOUR-GITHUB-PROFILE-LINK
 
@@ -210,11 +221,19 @@ Computer Science Engineering Student passionate about **Web Development, Artific
 
 ---
 
-## ⭐ Support
+## ⭐ Acknowledgement
 
-If you found this project interesting, consider giving the repository a ⭐.
+This project was developed as part of the **Web Development Internship at Prodigy InfoTech**.
 
-Thanks for checking out my Tic-Tac-Toe project! 🎮✨
+Thanks to **Prodigy InfoTech** for providing the opportunity to learn and build practical web development projects.
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, consider giving the repository a ⭐ on GitHub.
+
+**Thank you for checking out my project! 🎮✨**
 
 ```
 ```

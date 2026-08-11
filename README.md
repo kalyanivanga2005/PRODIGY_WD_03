@@ -172,17 +172,7 @@ No external dependencies or installation are required.
 7. Use **Restart** to start a new round.
 8. Use **Reset Scores** to clear the scoreboard.
 
----
 
-## 📸 Project Preview
-
-Add your project screenshot here:
-
-```markdown
-![Tic-Tac-Toe Preview](screenshot.png)
-```
-
----
 
 ## 📚 Task Information
 
@@ -215,9 +205,9 @@ Add your project screenshot here:
 
 Computer Science Engineering Student interested in **Web Development, Artificial Intelligence, Machine Learning, and Data Analytics**.
 
-🔗 **GitHub:** YOUR-GITHUB-PROFILE-LINK
+🔗 **GitHub:** https://github.com/kalyanivanga2005
 
-🔗 **LinkedIn:** YOUR-LINKEDIN-PROFILE-LINK
+🔗 **LinkedIn:** https://www.linkedin.com/in/kalyani-vanga-985331307/
 
 ---
 

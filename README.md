@@ -9,7 +9,7 @@ The application allows users to play Tic-Tac-Toe in **2 Player Mode** or against
 
 ## 🚀 Live Demo
 
-🔗 **[Play Tic-Tac-Toe](YOUR-LIVE-DEMO-LINK)**
+🔗 **[Play Tic-Tac-Toe](https://kalyanivanga2005.github.io/PRODIGY_WD_03/)**
 
 ---
 

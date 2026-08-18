@@ -10,7 +10,7 @@ An interactive and responsive **Tic-Tac-Toe Web Application** built using **HTML
 
 ### 🎮 Tic-Tac-Toe Game
 
-<img src="screenshot.png" alt="Tic-Tac-Toe Game" width="800">
+<img src="screenshot.png" alt="Tic-Tac-Toe Game" width="400">
 
 ## ✨ Features
 
